@@ -1,0 +1,8 @@
+# Goal: Target di posizione cartesiana
+geometry_msgs/Point target_position
+---
+# Result: Esito dell'operazione
+bool success
+---
+# Feedback: Errore di posizione
+float64 position_error
