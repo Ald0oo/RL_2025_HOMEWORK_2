@@ -1,7 +1,7 @@
 # RL_2025_HOMEWORK_2
-# Project Objective
-The primary goal of this homework is to develop kinematic and vision-based controllers for a simulated robotic manipulator. This includes implementing KDL for joint-limit avoidance (using null-space projection) and utilizing the aruco_ros package to execute a visual "Look-at-Point" task.
-
+* `aruco_ros`
+* `ros2_iiwa`
+* `ros2_kdl_package`
 # Prerequisites and Setup
 To compile and run the project, ensure you have a standard ROS 2 (e.g., Humble/Iron) workspace setup and the following dependencies installed.
 
