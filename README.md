@@ -63,7 +63,7 @@ Terminal 3. Run the Action Client to send the trajectory goal and monitor feedba
 ros2 run ros2_kdl_package linear_traj_client
  ``` 
  # LAUNCH GAZEBO. Vision-based control
-Terminal 1. Launch the full ROS 2 simulation environment for the KUKA LBR iiwa robot in Gazebo Sim
+Terminal 1. Launch the full ROS 2 simulation environment for the KUKA iiwa robot in Gazebo Sim, write this command in all terminals.
  ``` bash
 cd ~/ros2_ws/
 export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:/home/user/ros2_ws/src/ros2_iiwa/iiwa_description/gazebo/models/models_custom
