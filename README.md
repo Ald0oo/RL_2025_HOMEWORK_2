@@ -3,7 +3,7 @@
 * `ros2_iiwa`
 * `ros2_kdl_package`
 # Prerequisites and Setup
-To compile and run the project, ensure you have a standard ROS 2 (e.g., Humble/Iron) workspace setup and the following dependencies installed.
+To compile and run the project, ensure you have a standard ROS 2 workspace setup and the following dependencies installed.
 
 # Build
 Clone this package in the src folder of your ROS 2 workspace.
