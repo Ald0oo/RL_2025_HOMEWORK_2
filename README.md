@@ -32,20 +32,21 @@ Terminal 3. It is necessary to have the essential dependencies, including those 
  ``` bash
 sudo apt update
 sudo apt install python3-pip
+ ``` 
 Install Python packages for plotting
-
+ ``` bash
 python3 -m pip install --user pandas matplotlib
 pip install "numpy<2" pandas matplotlib
  ``` 
 Terminal 3. Generate and display plots (commanded velocities, joint positions) from the velocity_ctrl log file.
  ``` bash
 source install/setup.bash
-python3 src/rl2025_homework2/ros2_kdl_package/scripts/plot_results.py log_vel.csv
+python3 src/ros2_kdl_package/scripts/plot_results.py log_vel.csv
  ```
 Terminal 3. Generate plots specific to the null-space controller run.
  ``` bash
 source install/setup.bash
-python3 src/rl2025_homework2/ros2_kdl_package/scripts/plot_results.py log_null.csv
+python3 src/ros2_kdl_package/scripts/plot_results.py log_null.csv
  ``` 
 # INTERACTION AND CONTROL ---ACTION-CLIENT----
 Terminal 1. Launch the iiwa robot state publisher and Rviz2 for visualization.
